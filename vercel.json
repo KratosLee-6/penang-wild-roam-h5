@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build:h5",
+  "outputDirectory": "dist",
+  "framework": "taro",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "installCommand": "npm install --legacy-peer-deps"
+}
