@@ -8,6 +8,7 @@
     "dev:h5": "npm run build:h5 -- --watch",
     "dev:weapp": "npm run build:weapp -- --watch",
     "build:h5": "taro build --type h5",
+    "postinstall": "node scripts/fix-nested-webpackbar.js",
     "build:weapp": "taro build --type weapp",
     "lint": "eslint src"
   },
@@ -20,14 +21,15 @@
     "@tarojs/shared": "^4.0.0",
     "@tarojs/taro": "^4.0.0",
     "@tarojs/taro-h5": "^4.0.0",
-    "@tarojs/vite-runner": "^4.2.0",
     "@tarojs/webpack5-runner": "^4.2.0",
-    "@vitejs/plugin-legacy": "^8.0.2",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
     "vue": "^3.4.0",
-    "webpack": "^5.107.0",
-    "webpack-sources": "^3.4.1"
+    "webpack": "^5.107.1",
+    "webpackbar": "^4.0.0"
+  },
+  "overrides": {
+    "webpackbar": "4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -42,6 +44,6 @@
     "postcss": "^8.4.0",
     "stylelint": "^15.0.0",
     "typescript": "^5.3.0",
-    "vue-loader": "^17.0.0"
+    "vue-loader": "^17.4.2"
   }
 }

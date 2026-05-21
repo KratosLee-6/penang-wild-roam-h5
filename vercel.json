@@ -1,9 +1,9 @@
 {
-  "buildCommand": "npm run build:h5",
+  "buildCommand": "node scripts/fix-nested-webpackbar.js && npm run build:h5",
   "outputDirectory": "dist",
-  "framework": "taro",
+  "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "installCommand": "npm install --legacy-peer-deps"
+  "installCommand": "npm install",
 }
