@@ -1,0 +1,111 @@
+/* Global styles for Penang Wild Roam Taro App */
+
+page {
+  background: #faf8f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2c2c2c;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 100vh;
+  background: #faf8f5;
+}
+
+/* Tab bar */
+.at-tab-bar {
+  background: #fff !important;
+  border-top: 1rpx solid #eee;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.at-tab-bar__item {
+  color: #999 !important;
+}
+
+.at-tab-bar__item--active {
+  color: #e07a5f !important;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 32rpx;
+  margin: 24rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.06);
+}
+
+.card-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16rpx;
+}
+
+.card-desc {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #e07a5f;
+  color: #fff;
+  border: none;
+  border-radius: 50rpx;
+  padding: 24rpx 48rpx;
+  font-size: 28rpx;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #e07a5f;
+  border: 2rpx solid #e07a5f;
+  border-radius: 50rpx;
+  padding: 24rpx 48rpx;
+  font-size: 28rpx;
+}
+
+/* Section headers */
+.section-header {
+  padding: 32rpx 24rpx 16rpx;
+}
+
+.section-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.section-subtitle {
+  font-size: 26rpx;
+  color: #999;
+  margin-top: 8rpx;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 6rpx 16rpx;
+  border-radius: 30rpx;
+  font-size: 22rpx;
+  margin: 4rpx;
+}
+
+.tag-coral {
+  background: rgba(224, 122, 95, 0.1);
+  color: #e07a5f;
+}
+
+.tag-ocean {
+  background: rgba(59, 130, 158, 0.1);
+  color: #3b829e;
+}
+
+.tag-forest {
+  background: rgba(81, 140, 110, 0.1);
+  color: #518c6e;
+}

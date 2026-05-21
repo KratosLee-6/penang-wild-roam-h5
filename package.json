@@ -1,0 +1,47 @@
+{
+  "name": "penang-wild-roam-taro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "槟城野生漫游 - Taro H5/小程序",
+  "template": "vue-ts",
+  "scripts": {
+    "dev:h5": "npm run build:h5 -- --watch",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:h5": "taro build --type h5",
+    "build:weapp": "taro build --type weapp",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@tarojs/components": "^4.0.0",
+    "@tarojs/plugin-framework-vue3": "^4.0.0",
+    "@tarojs/plugin-platform-h5": "^4.2.0",
+    "@tarojs/plugin-platform-weapp": "^4.0.0",
+    "@tarojs/runtime": "^4.0.0",
+    "@tarojs/shared": "^4.0.0",
+    "@tarojs/taro": "^4.0.0",
+    "@tarojs/taro-h5": "^4.0.0",
+    "@tarojs/vite-runner": "^4.2.0",
+    "@tarojs/webpack5-runner": "^4.2.0",
+    "@vitejs/plugin-legacy": "^8.0.2",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.4.0",
+    "webpack": "^5.107.0",
+    "webpack-sources": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@tarojs/cli": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "babel-preset-taro": "^4.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-taro": "^4.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.0",
+    "stylelint": "^15.0.0",
+    "typescript": "^5.3.0",
+    "vue-loader": "^17.0.0"
+  }
+}
